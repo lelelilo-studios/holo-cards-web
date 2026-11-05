@@ -1,0 +1,524 @@
+{
+ "set": {
+  "name": "Holo Series 01",
+  "subtitle": "Stitched in Light",
+  "total": 12,
+  "year": 2026,
+  "rarities": {
+   "gold": {
+    "label": "Gold Thread",
+    "stitches": 3
+   },
+   "silk": {
+    "label": "Silk",
+    "stitches": 2
+   },
+   "cotton": {
+    "label": "Cotton",
+    "stitches": 1
+   }
+  }
+ },
+ "cards": [
+  {
+   "id": "lumina",
+   "no": 1,
+   "name": "Lumina",
+   "role": "the glowing core of the island",
+   "group": "keepers",
+   "mode": "lenticular",
+   "rarity": "gold",
+   "glyph": "spark",
+   "accent": "#ffc23a",
+   "motif": "starburst",
+   "fabric": "golden felt",
+   "filling": "pure glow (do not open)",
+   "personality": "curious",
+   "keeps": "the island's light",
+   "ability": {
+    "name": "Golden Pulse",
+    "text": "Warms every pillow nearby. Poke her five times and the whole island starts a pillow fight."
+   },
+   "flavour": "We did warn you.",
+   "details": [
+    "the poke counter: five gold dots, all poked",
+    "tilt her: the same island, mid pillow fight"
+   ],
+   "rarityLabel": "Gold Thread",
+   "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 0.65
+   },
+   "safeArea": {
+    "scale": 1.12,
+    "offset": [
+     -0.06,
+     -0.085
+    ]
+   },
+   "lenticular": {
+    "flipAngle": 18,
+    "softness": 0.26,
+    "pitch": 120,
+    "stripe": 0.22,
+    "sweep": 4,
+    "refract": 0.3,
+    "ridge": 0.5,
+    "depth": 0.03,
+    "foil": 0.6,
+    "cycle": false
+   },
+   "effects": {
+    "particles": 0.8,
+    "glow": 0.7
+   },
+   "faceBox": [
+    380,
+    690,
+    640,
+    880
+   ],
+   "states": {
+    "a": {
+     "label": "Calm",
+     "caption": "the glow at rest"
+    },
+    "b": {
+     "label": "Pillow fight!",
+     "caption": "after the fifth poke"
+    }
+   }
+  },
+  {
+   "id": "neri",
+   "no": 2,
+   "name": "Neri",
+   "role": "courier of the Game Post",
+   "group": "keepers",
+   "mode": "holographic",
+   "rarity": "silk",
+   "glyph": "gamepad",
+   "accent": "#f2a93b",
+   "motif": "postal",
+   "fabric": "parchment felt",
+   "filling": "buckwheat & old stamps",
+   "personality": "curious",
+   "keeps": "the games",
+   "ability": {
+    "name": "Special Delivery",
+    "text": "Seals each game in a letter and posts it to whoever needs it most. Arrives by lantern light."
+   },
+   "flavour": "Return to sender? Never heard of her.",
+   "details": [
+    "a pencil tucked in the cap band",
+    "a red pillar box down the lane"
+   ],
+   "rarityLabel": "Silk",
+   "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 0.65
+   },
+   "safeArea": {
+    "scale": 1.12,
+    "offset": [
+     -0.06,
+     -0.085
+    ]
+   }
+  },
+  {
+   "id": "cayito",
+   "no": 3,
+   "name": "Cayito",
+   "role": "keeper of the cay",
+   "group": "keepers",
+   "mode": "holographic",
+   "rarity": "silk",
+   "glyph": "cay",
+   "accent": "#2fd0c4",
+   "motif": "caustics",
+   "fabric": "burlap",
+   "filling": "sea grass & sand (it gets everywhere)",
+   "personality": "curious",
+   "keeps": "the simulations",
+   "ability": {
+    "name": "Message in a Bottle",
+    "text": "Sends every simulation out to sea in a bottle, then charts the archipelago one sounding at a time."
+   },
+   "flavour": "Never quite done.",
+   "details": [
+    "a fished-out star glowing in a jar",
+    "a lighthouse on the far cay"
+   ],
+   "rarityLabel": "Silk",
+   "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 0.65
+   },
+   "safeArea": {
+    "scale": 1.12,
+    "offset": [
+     -0.06,
+     -0.085
+    ]
+   }
+  },
+  {
+   "id": "tilde",
+   "no": 4,
+   "name": "Tilde",
+   "role": "keeper of the desk",
+   "group": "keepers",
+   "mode": "holographic",
+   "rarity": "silk",
+   "glyph": "tilde",
+   "accent": "#9be37a",
+   "motif": "circuit",
+   "fabric": "lavender knit",
+   "filling": "cotton & spare screws",
+   "personality": "energetic",
+   "keeps": "the tools",
+   "ability": {
+    "name": "~ hums",
+    "text": "Fixes it before you notice it broke. Says little, hums a lot, pats the server dial back to green."
+   },
+   "flavour": "~ ~ ~",
+   "details": [
+    "a floppy disk, caught mid-air",
+    "paper-plane requests on a string"
+   ],
+   "rarityLabel": "Silk",
+   "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 0.65
+   },
+   "safeArea": {
+    "scale": 1.12,
+    "offset": [
+     -0.06,
+     -0.085
+    ]
+   }
+  },
+  {
+   "id": "sereno",
+   "no": 5,
+   "name": "Sereno",
+   "role": "keeper of the night booth",
+   "group": "keepers",
+   "mode": "holographic",
+   "rarity": "silk",
+   "glyph": "broadcast",
+   "accent": "#9aa8ff",
+   "motif": "grooves",
+   "fabric": "sage velvet",
+   "filling": "lavender & warm milk",
+   "personality": "sleepy",
+   "keeps": "sound & voice",
+   "ability": {
+    "name": "Night Shift",
+    "text": "Keeps the radio on until the last listener falls asleep. Every third show, the voice comes out squeaky."
+   },
+   "flavour": "z z",
+   "details": [
+    "an owl-shaped microphone",
+    "warm milk, still steaming"
+   ],
+   "rarityLabel": "Silk",
+   "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 0.65
+   },
+   "safeArea": {
+    "scale": 1.12,
+    "offset": [
+     -0.06,
+     -0.085
+    ]
+   }
+  },
+  {
+   "id": "pip",
+   "no": 6,
+   "name": "Pip",
+   "role": "debugging agent",
+   "group": "agents",
+   "mode": "holographic",
+   "rarity": "cotton",
+   "glyph": "bug",
+   "accent": "#4fd8ff",
+   "motif": "crosshair",
+   "fabric": "violet knit",
+   "filling": "cotton & dropped stitches",
+   "personality": "energetic",
+   "keeps": "the bugs (gently)",
+   "ability": {
+    "name": "Bug Trace",
+    "text": "Follows a loose thread all the way to the exact dropped stitch."
+   },
+   "flavour": "It's usually a ladybird.",
+   "details": [
+    "the bug: a ladybird on the yarn",
+    "a dotted trace circle where the stitch dropped"
+   ],
+   "rarityLabel": "Cotton",
+   "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 0.65
+   },
+   "safeArea": {
+    "scale": 1.12,
+    "offset": [
+     -0.06,
+     -0.085
+    ]
+   }
+  },
+  {
+   "id": "loom",
+   "no": 7,
+   "name": "Loom",
+   "role": "material fabricator",
+   "group": "agents",
+   "mode": "holographic",
+   "rarity": "cotton",
+   "glyph": "needle",
+   "accent": "#ffc94a",
+   "motif": "twill",
+   "fabric": "mustard burlap",
+   "filling": "offcuts",
+   "personality": "focused",
+   "keeps": "the fabric",
+   "ability": {
+    "name": "Smart Weave",
+    "text": "Turns loose threads into fabric for every new lelelilo. Check the twill: it signs its work."
+   },
+   "flavour": "Measure twice, stitch once.",
+   "details": [
+    "a golden thread pulled taut",
+    "spools in every colour on the shelves"
+   ],
+   "rarityLabel": "Cotton",
+   "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 0.65
+   },
+   "safeArea": {
+    "scale": 1.12,
+    "offset": [
+     -0.06,
+     -0.085
+    ]
+   }
+  },
+  {
+   "id": "scan",
+   "no": 8,
+   "name": "Scan",
+   "role": "digital twin agent",
+   "group": "agents",
+   "mode": "holographic",
+   "rarity": "cotton",
+   "glyph": "cube",
+   "accent": "#4fd8ff",
+   "motif": "pointcloud",
+   "fabric": "blue plaid",
+   "filling": "a point cloud (very fluffy)",
+   "personality": "curious",
+   "keeps": "the digital twins",
+   "ability": {
+    "name": "Reality Capture",
+    "text": "Makes a perfect wireframe twin of anything, including itself."
+   },
+   "flavour": "The twin is slightly smug.",
+   "details": [
+    "the wireframe twin is Scan itself",
+    "a pear and a teacup, half digitised"
+   ],
+   "rarityLabel": "Cotton",
+   "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 0.65
+   },
+   "safeArea": {
+    "scale": 1.12,
+    "offset": [
+     -0.06,
+     -0.085
+    ]
+   }
+  },
+  {
+   "id": "bloom",
+   "no": 9,
+   "name": "Bloom",
+   "role": "collaboration agent",
+   "group": "agents",
+   "mode": "holographic",
+   "rarity": "cotton",
+   "glyph": "network",
+   "accent": "#7dffcf",
+   "motif": "petals",
+   "fabric": "lavender knit",
+   "filling": "petals",
+   "personality": "shy",
+   "keeps": "the team",
+   "ability": {
+    "name": "Team Resonance",
+    "text": "Strings tin-can phones between everyone until they're all talking. Then hides."
+   },
+   "flavour": "(behind a leaf)",
+   "details": [
+    "tin-can phones on strings",
+    "only half of Bloom shows"
+   ],
+   "rarityLabel": "Cotton",
+   "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 0.65
+   },
+   "safeArea": {
+    "scale": 1.12,
+    "offset": [
+     -0.06,
+     -0.085
+    ]
+   }
+  },
+  {
+   "id": "dash",
+   "no": 10,
+   "name": "Dash",
+   "role": "logistics pilot",
+   "group": "agents",
+   "mode": "holographic",
+   "rarity": "cotton",
+   "glyph": "rocket",
+   "accent": "#ffb347",
+   "motif": "flightpath",
+   "fabric": "oatmeal felt",
+   "filling": "goose down (borrowed)",
+   "personality": "sleepy",
+   "keeps": "the cargo",
+   "ability": {
+    "name": "Cargo Flow",
+    "text": "Gets every parcel there on time, mostly asleep."
+   },
+   "flavour": "Flies best with its eyes closed.",
+   "details": [
+    "parcels on patchwork parachutes",
+    "a windsock on a cloud"
+   ],
+   "rarityLabel": "Cotton",
+   "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 0.65
+   },
+   "safeArea": {
+    "scale": 1.12,
+    "offset": [
+     -0.06,
+     -0.085
+    ]
+   }
+  },
+  {
+   "id": "iris",
+   "no": 11,
+   "name": "Iris",
+   "role": "image studio",
+   "group": "agents",
+   "mode": "holographic",
+   "rarity": "cotton",
+   "glyph": "image",
+   "accent": "#ff7de9",
+   "motif": "prism",
+   "fabric": "rose velvet",
+   "filling": "paint-stained cotton",
+   "personality": "curious",
+   "keeps": "the pictures",
+   "ability": {
+    "name": "Colour Bloom",
+    "text": "Paints whatever it imagines, including this card."
+   },
+   "flavour": "Look closely at the easel.",
+   "details": [
+    "a pink pillow painting on the easel",
+    "a prism rainbow across the studio"
+   ],
+   "rarityLabel": "Cotton",
+   "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 0.65
+   },
+   "safeArea": {
+    "scale": 1.12,
+    "offset": [
+     -0.06,
+     -0.085
+    ]
+   }
+  },
+  {
+   "id": "sage",
+   "no": 12,
+   "name": "Sage",
+   "role": "research lab",
+   "group": "agents",
+   "mode": "holographic",
+   "rarity": "cotton",
+   "glyph": "flask",
+   "accent": "#7dff9a",
+   "motif": "hex",
+   "fabric": "cream felt",
+   "filling": "buckwheat & footnotes",
+   "personality": "focused",
+   "keeps": "the research",
+   "ability": {
+    "name": "Hidden Signal",
+    "text": "Finds the pattern in the noise and bottles it for later."
+   },
+   "flavour": "Most flasks hold starlight. One holds 100% hobby.",
+   "details": [
+    "a brass telescope at the window",
+    "hexagons chalked on the board"
+   ],
+   "rarityLabel": "Cotton",
+   "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 0.65
+   },
+   "safeArea": {
+    "scale": 1.12,
+    "offset": [
+     -0.06,
+     -0.085
+    ]
+   }
+  }
+ ]
+}
